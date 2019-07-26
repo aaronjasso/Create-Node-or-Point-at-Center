@@ -19,6 +19,8 @@ Sub Main
     'along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	'
 	'Written by AMJ 5.16.2019
+	'
+	'Please comment or contribute at https://github.com/aaronjasso/Create-Node-or-Point-at-Center
 	'==========================================
     Dim App As femap.model
     Set App = feFemap()
