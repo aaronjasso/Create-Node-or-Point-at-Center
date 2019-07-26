@@ -11,13 +11,16 @@ This program is fairly straightforward. The options are described below.
 
 1. Create
    * __Point__
+   
    The program will create a point
    
    * __Node__
+   
    The program will create a node
    
 2. Method
 	* __Geometric Center__
+	
 	The new point or node will be located at the center of the bounding box. Mathematically, the X coordinate is found using the equation
   
 	![Xcenter](images/Xcenter.gif)
@@ -25,6 +28,7 @@ This program is fairly straightforward. The options are described below.
 	Where `Xmin` is the least x-coordinate of all entities selected, and `Xmax` is the greatest x-coordinate of all entities selected. The y- and z-coordinates are found in the same way.
 	
 	* __Average Coordinates__
+	
 	The new point or node will be located at the average coordinates of all selected entities. The average is found by iterating through the selected entities using the equation
   
 	![Xavg](images/Xavg.gif)
@@ -35,9 +39,11 @@ This program is fairly straightforward. The options are described below.
 
 3. Input Type
 	* __Points__
+	
 	You will be prompted to select points to average.
 	
 	* __Nodes__
+	
 	You will be prompted to select nodes to average.
 
 ---
